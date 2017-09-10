@@ -1,0 +1,504 @@
+﻿*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	outline: none;
+}
+input,img{
+	border: none;
+}
+li,ul,ol{
+	list-style: none;
+}
+.clear{
+	clear: both;
+	font-size: 0;
+	height: 0;
+	overflow: hidden;
+}
+body{
+	min-width: 1200px;
+}
+/*头部开始*/
+
+.hg{
+	width: 100%;
+	height: auto;
+	background: #4c95f4;
+}
+.header{
+	position: relative;
+	width: 1200px;
+	height: 190px;
+	margin: 0 auto;
+        z-index: 2;
+}
+
+/*头部左边开始*/
+.header .header-l{
+	position: absolute;
+	top: 59px;
+	left: 8px;
+}
+.header .header-l a{
+  color: #ffffff;
+  font-size: 21px;
+  font-family: "SimSun","宋体";
+}
+.header .header-l a.pp{
+	position: absolute;
+	left:143px;
+	top: 29px;
+}
+.header .header-l a.dw{
+	position: absolute;
+	left: 336px;
+	top: 29px;
+}
+/*头部左边结束*/
+
+/*头部右边开始*/
+.header .header-r{
+	position: absolute;
+	right: 25px;
+	top: 68px;
+}
+
+.header .header-r a{
+	float: left;
+	color: #FFFFFF;
+	font-size: 25px;
+}
+.header .header-r .dw{
+	float: left;
+	width: 53px;
+	height: 62px;
+	margin-top: 23px;
+	margin-right: 64px;
+}
+.header .header-r .dw a{
+  font-family: "SimSun","宋体";
+  font-weight: bold;
+}
+.header .header-r a.zc{
+       background: #4c95f4;
+	width: 177px;
+	height: 64px;
+	line-height:64px ;
+	border: 2px solid #FFFFFF;
+	border-radius: 100px;
+	text-align: center;
+    font-family: "SimHei","黑体";
+}
+/*登录隐藏开始*/
+.header-r .dw .dw-yc{
+	position: absolute;
+	right: -25px;
+	top: 64px;
+	width: 551px;
+	z-index: 1;
+	display: none;
+}
+.header-r .dw .dw-yc .dw-yc-t{
+	width: 54px;
+	height: 24px;
+	margin-left: 227px;
+	background: url(../img/jiao.png) 0 0 no-repeat;
+}
+.header-r .dw .dw-yc .dw-yc-f{
+	position: relative;
+	width: 551px;
+	height: 214px;
+	background: url(../img/yc-f.png) 0 0 no-repeat;
+}
+
+/*登录隐藏头部开始*/
+.header-r .dw .dw-yc .dw-yc-f form{
+	position: absolute;
+	top: 43px;
+	left: 78px;
+	width: 446px;
+	height: 90px;
+}
+.dw .dw-yc .dw-yc-f form input{
+	width: 170px;
+	height: 40px;
+   border: 1px solid #717171;
+   color: #c3bfbf;
+}
+.dw .dw-yc .dw-yc-f form input.input-l{
+	margin-right: 55px;
+}
+.dw .dw-yc .dw-yc-f #pw,#yh{
+	text-indent: 10px;
+	line-height: 40px;
+}
+.dw .dw-yc .dw-yc-f form .ipb{
+	position: absolute;
+	left: 202px;
+	top: 59px;
+	width: 243px;
+	height: 31px;
+}
+.dw .dw-yc .dw-yc-f form .ipb .ipb_1{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 59px;	
+}
+.dw .dw-yc .dw-yc-f form .ipb .ipb_1 .input-2{
+	display: block;
+	float: left;
+	width: 13px;
+	height: 13px;
+}
+.dw .dw-yc .dw-yc-f form .ipb .ipb_1 p{
+ margin-left: 22px;
+ font-size: 10px;
+ font-family: "黑体","SimHei";
+ line-height: 13px;
+}
+.dw .dw-yc .dw-yc-f form .ipb .input-3{
+	margin-left: 103px;
+	margin-top: 2px;
+	border-radius: 4px;
+	width: 104px;
+	height: 31px;
+	background: #4c95f4;
+	color: #FFFFFF;
+	font-size: 15px;
+   font-family: "SimSun","宋体";
+   font-weight: bold;
+   cursor: pointer;
+   outline: none;
+}
+/*登录隐藏头部结束*/
+
+/*登录隐藏尾部开始*/
+.dw .dw-yc .dw-yc-f .other{
+	position: absolute;
+	top: 156px;
+	left: 321px;
+	width: 164px;
+	height: 40px;
+}
+.dw .dw-yc .dw-yc-f .other a{
+	display: block;
+	float: left;
+	
+}
+.dw .dw-yc .dw-yc-f .other a.other1{
+	padding-right: 22px;
+}
+/*登录隐藏尾部结束*/
+
+/*登录隐藏结束*/
+.header .header-r a.zc:hover{
+	background: #FFFFFF;
+	color: #4c95f4;
+}
+/*头部右边结束*/
+
+/*头部结束*/
+
+
+/*中间上面开始*/
+.mg{
+	width: 100%;
+	height: auto;
+	background: #4c95f4;
+	margin-top: 5px;
+}
+.mg .min{
+	position: relative;
+	width: 1199px;
+	height: 687px;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+.mg .min .search{
+	position: absolute;
+	top: 296px;
+	left: 0;
+}
+.mg .min .search a{
+	display: block;
+	float: left;
+}
+.mg .min .search .search1{
+	height: 75px;
+	width: 30px;
+	background: url(../img/left.png) 0 0 no-repeat;
+}
+.mg .min .search a.search1:hover{
+	background: url(../img/left.png) 0 -75px no-repeat;
+}
+.mg .min .search .search2{
+	margin-left: 1139px;
+	height: 75px;
+	width: 30px;
+	background: url(../img/right.png) 0 0 no-repeat;
+}
+.mg .min .search a.search2:hover{
+	background: url(../img/right.png) 0 -75px no-repeat;
+}
+/*中间上面结束*/
+
+/*中间下面开始*/
+
+.mx{
+	width: 1200px;
+	margin: 0 auto;
+}
+.mx .dian{
+	float: left;
+	margin-left: 561px;
+	margin-top: 15px;
+	height: 20px;
+}
+.mx .dian li{
+	display: block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-right: 48px;
+	
+}
+.dian-1{
+	background: url(../img/dian.png) 0 -20px no-repeat;
+}
+.dian-2{
+	background: url(../img/dian.png) 0 0px no-repeat;
+}
+
+/*中间下面正文开始*/
+
+.mx .zw{
+	width: 1200px;
+	margin-top: 280px;
+}
+.mx .zw .box1{
+	text-align: center;
+}
+.mx .zw .box1 .box1-1{
+  font-size: 40px;
+  font-family: "SimSun","宋体";
+  color: #000000;
+}
+.mx .zw .box1 .box1-2{
+	font-size: 20px;
+  font-family: "SimSun","宋体";
+  color: #000000;
+  margin-top: 38px;
+}
+.mx .zw ul{
+	margin-top: 205px;
+}
+.mx .zw p{
+	font-size: 16px;
+  font-family: "SimSun","宋体";
+  color: #6b6b6b;
+}
+.mx .zw b{
+	display: block;
+	font-family: "微软雅黑","Microsoft YaHei";
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+.mx .zw .box2 li{
+float: right;
+}
+.mx .zw .box2 .box2-1{
+	margin-right: 352px;
+	margin-top: 140px;
+}
+.mx .zw .box3 li{
+	float: left;
+}
+.mx .zw .box3 .box3-1{
+	margin-left: 235px;
+	margin-top: 191px;
+}
+.mx .zw .box4 li{
+	float: right;
+}
+.mx .zw .box4 .box4-1{
+	margin-right: 352px;
+	margin-top: 140px;
+}
+.mx .zw .box5 li{
+	float: left;
+}
+.mx .zw .box5 .box5-1{
+	margin-top: 255px;
+	margin-left: 241px;
+}
+.mx .zw .box6 li{
+	float: right;
+}
+.mx .zw .box6 .box6-1{
+	margin-top: 324px;
+	margin-right: 414px;
+}
+/*中间下面正文结束*/
+/*中间下面结束*/
+
+/*尾部上方开始*/
+
+.foot-sg{
+	width: 100%;
+	height: auto;
+	background: #e7e7e7;
+	margin-top: 134px;
+}
+.foot-sg .foot-s{
+	position: relative;
+	width: 1200px;
+	height: 458px;
+	margin: 0 auto;
+}
+
+/*尾部上方左边开始*/
+
+.foot-sg .foot-s li{
+	text-align: center;
+    font-family: "SimSun","宋体";
+    color: #000000;
+}
+.foot-sg .foot-s .hy{
+	position: absolute;
+    left: 68px;
+	top: 64px;
+	width: 377px;
+	height: 274px;
+}
+.foot-sg .foot-s .hy-1{
+	font-size: 19px;
+	margin-top: 18px;
+	margin-bottom: 12px;
+}
+.foot-sg .foot-s p{
+	font-family: "SimSun","宋体";
+	font-size: 14px;
+   color: #3b3b3b;
+   letter-spacing: 1px;
+   line-height: 19px;
+}
+.foot-sg .foot-s a{
+	display: block;
+	width: 220px;
+	height: 63px;
+	background: #218bf7;
+	border-radius: 31.5px;
+	text-align: center;
+	line-height: 63px;
+	margin-left: 65px;
+	margin-top: 37px;
+	font-family: "SimSun","宋体";
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+}
+.foot-sg .foot-s a:hover{
+	background: #FFFFFF;
+	color:#218bf7 ;
+	font-weight: bold;
+	border: 1px solid #218bf7;
+}
+/*尾部上方左边结束*/
+
+
+/*尾部上方右边开始*/
+
+.foot-sg .foot-s .xz{
+	position: absolute;
+	top: 64px;
+	right: 90px;
+	width: 314px;
+	height: 278px;
+}
+.foot-sg .foot-s .xz a{
+	margin-left: 45px;
+}
+.foot-sg .foot-s .xz .xz-1{
+	margin-bottom: 15px;
+}
+/*尾部上方右边结束*/
+
+/*尾部上方结束*/
+
+/*尾部下方开始*/
+.foot-xg{
+	width: 100%;
+	height: auto;
+	background: #cbcbcb;
+	margin-top: 5px;
+}
+.foot-xg .foot-x{
+	position: relative;
+	width: 1200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+/*尾部下方左边开始*/
+.foot-xg .foot-x .xx{
+	position: absolute;
+	top: 115px;
+	left: 0;
+	font-size: 12px;
+}
+.foot-xg .foot-x .xx a{
+  font-family: "SimHei","黑体";
+  color: #696969;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+.foot-xg .foot-x .xx a:hover{
+	text-decoration: underline;
+}
+.foot-xg .foot-x .xx a.xx-1{
+	margin-left: 0;
+}
+.foot-xg .foot-x .xx p{
+	display: inline;
+   font-family: "SimSun","宋体";
+   color: #9b9b9b;
+   line-height: 12px;
+}
+.foot-xg .foot-x .xx span{
+	display: block;
+	color: #575757;
+	margin-top: 13px;
+}
+/*尾部下方左边结束*/
+
+/*尾部下方右边开始*/
+.foot-xg .foot-x .lg{
+	position: absolute;
+	top: 38px;
+	right: 27px;
+    font-family: "SimSun","宋体";
+	font-size: 13px;
+}
+.foot-xg .foot-x .lg a{
+	color: #575757;
+	margin-left: 29px;
+	margin-right: 29px;
+}
+.foot-xg .foot-x .lg a:hover{
+	text-decoration: underline;
+}
+.foot-xg .foot-x .lg a.lg-1{
+	margin-right: 0;
+}
+.foot-xg .foot-x .lg p{
+	color: #959595;
+	display: inline;
+}
+/*尾部下坟右边结束*/
+/*尾部下方结束*/
